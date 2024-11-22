@@ -1,4 +1,4 @@
-# Traffic_light_controller_Synthesis
+# EXPNO:6 Traffic_light_controller_Synthesis
 
 ## Aim:
 
@@ -19,7 +19,6 @@ Synthesis requires three files as follows,
 ◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
 
 ### Step 2 : Creating an SDC File
-
 •	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
 
 ### Step 3 : Performing Synthesis
@@ -38,12 +37,11 @@ The Liberty files are present in the library path,
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
-Synthesis RTL Schematic :
-
-Area report:
-
-Power Report:
-
-Result:
-
+## Synthesis RTL Schematic :
+![Screenshot 2024-11-18 104525](https://github.com/user-attachments/assets/af322f7f-5b8d-459c-afb6-3e2dc401147d)
+## Area report:
+![Screenshot 2024-11-18 133924](https://github.com/user-attachments/assets/8641c997-5d51-4215-bfb8-70e23f45ed7f)
+## Power Report:
+![Screenshot 2024-11-18 134015](https://github.com/user-attachments/assets/edccbfaa-6758-455b-a234-f035d9e1e02e)
+## Result:
 The generic netlist of Traffic Light Controller has been created, and area, power reports have been tabulated and generated using Genus.
